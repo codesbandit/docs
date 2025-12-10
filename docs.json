@@ -28,7 +28,7 @@
             ]
           }
         ],
-        "menu": [
+        "groups": [
           {
             "item": "Fitur Utama",
             "icon": "grid-2",
