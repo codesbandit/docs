@@ -2,9 +2,9 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Berumrah Documentation",
-  "description": "Berumrah Documentation adalah panduan untuk platform ERP dan ekosistem digital umrah di Indonesia. Temukan cara menggunakan fitur Berumrah untuk mengelola pendaftaran jamaah, pembayaran, kuota, keberangkatan, program haji, hingga integrasi API.",
+  "description": "Dokumentasi resmi untuk platform Berumrah ERP — panduan user, agent/pesyiar, admin, dan developer.",
   "colors": {
-    "primary": "#c6a03b",
+    "primary": "#0B7A3B",
     "light": "#14C56E",
     "dark": "#064C25"
   },
@@ -13,62 +13,98 @@
     "light": "/logo/light-logo.png",
     "dark": "/logo/dark-logo.png"
   },
-
   "navigation": {
     "tabs": [
       {
-        "tab": "Panduan",
-        "menu": [
+        "tab": "Overview",
+        "groups": [
           {
-            "item": "Memulai",
-            "icon": "rocket",
+            "group": "Pendahuluan",
             "pages": [
-              "overview",
-              "quickstart"
+              "overview/what-is-berumrah-erp",
+              "overview/audience-and-roles",
+              "overview/features-overview",
+              "overview/glossary",
+              "overview/requirements"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "User Guide",
+        "groups": [
+          {
+            "group": "Jamaah",
+            "pages": [
+              "user-guide/jamaah/registration",
+              "user-guide/jamaah/fill-data-and-docs",
+              "user-guide/jamaah/view-packages-booking",
+              "user-guide/jamaah/payment-and-confirmation",
+              "user-guide/jamaah/booking-status-and-quota",
+              "user-guide/jamaah/itinerary-and-schedule",
+              "user-guide/jamaah/notifications-and-reminders"
             ]
           },
           {
-            "item": "Fitur Utama",
-            "icon": "grid-2",
-            "description": "Fitur-fitur utama platform Berumrah",
-            "groups": [
-              {
-                "group": "Manajemen",
-                "pages": [
-                  "features/event-management",
-                  "features/jamaah-management"
-                ]
-              },
-              {
-                "group": "Operasional",
-                "pages": [
-                  "features/travel-itinerary",
-                  "features/payment-gateway",
-                  "features/seat-quota",
-                  "features/custom-form"
-                ]
-              }
+            "group": "Agent / Pesyiar",
+            "pages": [
+              "user-guide/agent-pesyiar/what-is-agent-pesyiar",
+              "user-guide/agent-pesyiar/agent-registration-login",
+              "user-guide/agent-pesyiar/manage-jamaah-via-agent",
+              "user-guide/agent-pesyiar/booking-and-quota-management",
+              "user-guide/agent-pesyiar/payment-tracking-for-agent",
+              "user-guide/agent-pesyiar/agent-dashboard-and-reports",
+              "user-guide/agent-pesyiar/communication-and-notifications-agent"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Admin Guide",
+        "groups": [
+          {
+            "group": "Admin / Operator",
+            "pages": [
+              "admin-guide/user-and-role-management",
+              "admin-guide/program-package-management",
+              "admin-guide/booking-and-payment-management",
+              "admin-guide/quota-and-seat-allocation",
+              "admin-guide/itinerary-and-logistics-management",
+              "admin-guide/system-settings-and-configurations"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Developer",
+        "groups": [
+          {
+            "group": "Teknis & API",
+            "pages": [
+              "developer-guide/architecture-and-data-flow",
+              "developer-guide/setup-and-deployment",
+              "developer-guide/coding-guidelines",
+              "developer-guide/maintenance-and-contribution"
             ]
           },
           {
-            "item": "Administrasi",
-            "icon": "gear",
-            "description": "Pengaturan dan kontrol akses",
+            "group": "API Reference",
             "pages": [
-              "admin/settings",
-              "admin/access-control",
-              "admin/notifikasi",
-              "admin/integrations"
+              "developer-guide/api-reference/authentication"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Bantuan & FAQ",
+        "groups": [
           {
-            "item": "Kustomisasi",
-            "icon": "palette",
-            "description": "Personalisasi tampilan dan form",
+            "group": "FAQ & Troubleshooting",
             "pages": [
-              "customization/theme",
-              "customization/navigation",
-              "customization/forms"
+              "faq-troubleshooting/jamaah-faq",
+              "faq-troubleshooting/agent-faq",
+              "faq-troubleshooting/admin-faq",
+              "faq-troubleshooting/common-issues-and-solutions"
             ]
           }
         ]
@@ -78,10 +114,22 @@
         "groups": [
           {
             "group": "Catatan Pembaruan",
-            "icon": "clock-rotate-left",
             "pages": [
               "changelog/releases",
               "changelog/versioning"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Lampiran",
+        "groups": [
+          {
+            "group": "Template & Referensi",
+            "pages": [
+              "attachments/template-pendaftaran",
+              "attachments/invoice-template",
+              "attachments/agreement-agent-template"
             ]
           }
         ]
@@ -100,27 +148,6 @@
           "icon": "envelope"
         }
       ]
-    }
-  },
-
-  "navbar": {
-    "links": [
-      {
-        "label": "Dashboard",
-        "href": "https://app.berumrah.id"
-      }
-    ]
-  },
-
-  "contextual": {
-    "options": ["copy", "view", "chatgpt", "claude", "perplexity"]
-  },
-
-  "footer": {
-    "socials": {
-      "instagram": "https://instagram.com/berumrahcom",
-      "github": "https://github.com/berumrah",
-      "linkedin": "https://linkedin.com/company/berumrah"
     }
   }
 }
