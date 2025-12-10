@@ -4,7 +4,7 @@
   "name": "Berumrah Documentation",
   "description": "Dokumentasi resmi untuk platform Berumrah ERP — panduan user, agent/pesyiar, admin, dan developer.",
   "colors": {
-    "primary": "#0B7A3B",
+    "primary": "#c6a03b",
     "light": "#14C56E",
     "dark": "#064C25"
   },
@@ -21,7 +21,7 @@
           {
             "group": "Pendahuluan",
             "pages": [
-              "overview/what-is-berumrah-erp",
+              "overview",
               "overview/audience-and-roles",
               "overview/features-overview",
               "overview/glossary",
@@ -76,26 +76,6 @@
         ]
       },
       {
-        "tab": "Developer",
-        "groups": [
-          {
-            "group": "Teknis & API",
-            "pages": [
-              "developer-guide/architecture-and-data-flow",
-              "developer-guide/setup-and-deployment",
-              "developer-guide/coding-guidelines",
-              "developer-guide/maintenance-and-contribution"
-            ]
-          },
-          {
-            "group": "API Reference",
-            "pages": [
-              "developer-guide/api-reference/authentication"
-            ]
-          }
-        ]
-      },
-      {
         "tab": "Bantuan & FAQ",
         "groups": [
           {
@@ -117,19 +97,6 @@
             "pages": [
               "changelog/releases",
               "changelog/versioning"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Lampiran",
-        "groups": [
-          {
-            "group": "Template & Referensi",
-            "pages": [
-              "attachments/template-pendaftaran",
-              "attachments/invoice-template",
-              "attachments/agreement-agent-template"
             ]
           }
         ]
