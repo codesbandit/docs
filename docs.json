@@ -16,10 +16,10 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Panduan",
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "Memulai",
             "pages": [
               "overview",
               "quickstart",
@@ -28,7 +28,7 @@
             ]
           },
           {
-            "group": "Core Features",
+            "group": "Fitur Utama",
             "pages": [
               "features/event-management",
               "features/jamaah-management",
@@ -39,7 +39,7 @@
             ]
           },
           {
-            "group": "Administration",
+            "group": "Administrasi",
             "pages": [
               "admin/settings",
               "admin/access-control",
@@ -48,41 +48,23 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "Kustomisasi",
             "pages": [
               "customization/theme",
               "customization/navigation",
               "customization/forms"
             ]
-          },
-          {
-            "group": "Changelog",
-            "pages": [
-              "changelog/releases",
-              "changelog/versioning"
-            ]
           }
         ]
       },
-
       {
-        "tab": "API Reference",
+        "tab": "Changelog",
         "groups": [
           {
-            "group": "Introduction",
+            "group": "Catatan Pembaruan",
             "pages": [
-              "api/introduction",
-              "api/authentication",
-              "api/rate-limits"
-            ]
-          },
-          {
-            "group": "Endpoints",
-            "pages": [
-              "api/endpoints/jamaah",
-              "api/endpoints/event",
-              "api/endpoints/payment",
-              "api/endpoints/webhook"
+              "changelog/releases",
+              "changelog/versioning"
             ]
           }
         ]
