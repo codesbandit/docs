@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Berumrah Documentation",
-  "description": "Berumrah Documentation adalah panduan untuk platform ERP dan ekosistem digital umrah di Indonesia. Temukan cara menggunakan fitur Berumrah untuk mengelola pendaftaran jamaah, pembayaran, kuota, keberangkatan, program haji, hingga integrasi API. Dokumentasi ini membantu travel umrah memahami langkah instalasi, konfigurasi whitelabel, dan optimalisasi operasional menggunakan teknologi Berumrah.",
+  "description": "Berumrah Documentation adalah panduan untuk platform ERP dan ekosistem digital umrah di Indonesia. Temukan cara menggunakan fitur Berumrah untuk mengelola pendaftaran jamaah, pembayaran, kuota, keberangkatan, program haji, hingga integrasi API.",
   "colors": {
     "primary": "#c6a03b",
     "light": "#14C56E",
@@ -15,33 +15,47 @@
   },
 
   "navigation": {
-    
     "tabs": [
       {
         "tab": "Panduan",
         "groups": [
           {
             "group": "Memulai",
+            "icon": "rocket",
             "pages": [
               "overview",
-              "quickstart",
-              "onboarding",
-              "roles"
+              "quickstart"
+            ]
+          }
+        ],
+        "menu": [
+          {
+            "item": "Fitur Utama",
+            "icon": "grid-2",
+            "description": "Fitur-fitur utama platform Berumrah",
+            "groups": [
+              {
+                "group": "Manajemen",
+                "pages": [
+                  "features/event-management",
+                  "features/jamaah-management"
+                ]
+              },
+              {
+                "group": "Operasional",
+                "pages": [
+                  "features/travel-itinerary",
+                  "features/payment-gateway",
+                  "features/seat-quota",
+                  "features/custom-form"
+                ]
+              }
             ]
           },
           {
-            "group": "Fitur Utama",
-            "pages": [
-              "features/event-management",
-              "features/jamaah-management",
-              "features/travel-itinerary",
-              "features/payment-gateway",
-              "features/seat-quota",
-              "features/custom-form"
-            ]
-          },
-          {
-            "group": "Administrasi",
+            "item": "Administrasi",
+            "icon": "gear",
+            "description": "Pengaturan dan kontrol akses",
             "pages": [
               "admin/settings",
               "admin/access-control",
@@ -50,7 +64,9 @@
             ]
           },
           {
-            "group": "Kustomisasi",
+            "item": "Kustomisasi",
+            "icon": "palette",
+            "description": "Personalisasi tampilan dan form",
             "pages": [
               "customization/theme",
               "customization/navigation",
@@ -64,6 +80,7 @@
         "groups": [
           {
             "group": "Catatan Pembaruan",
+            "icon": "clock-rotate-left",
             "pages": [
               "changelog/releases",
               "changelog/versioning"
@@ -72,8 +89,6 @@
         ]
       }
     ],
-    
-
     "global": {
       "anchors": [
         {
@@ -100,15 +115,8 @@
   },
 
   "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity"
-    ]
+    "options": ["copy", "view", "chatgpt", "claude", "perplexity"]
   },
-  
 
   "footer": {
     "socials": {
