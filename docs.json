@@ -18,17 +18,15 @@
     "tabs": [
       {
         "tab": "Panduan",
-        "groups": [
+        "menu": [
           {
-            "group": "Memulai",
+            "item": "Memulai",
             "icon": "rocket",
             "pages": [
               "overview",
               "quickstart"
             ]
-          }
-        ],
-        "groups": [
+          },
           {
             "item": "Fitur Utama",
             "icon": "grid-2",
