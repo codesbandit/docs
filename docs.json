@@ -7,10 +7,10 @@
     "light": "#14C56E",
     "dark": "#064C25"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "logo": {
-    "light": "/logo/berumrah-light.svg",
-    "dark": "/logo/berumrah-dark.svg"
+    "light": "/logo/light-logo.png",
+    "dark": "/logo/dark-logo.png"
   },
 
   "navigation": {
