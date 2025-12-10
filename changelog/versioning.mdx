@@ -1,0 +1,55 @@
+---
+title: "Kebijakan Versioning"
+description: "Penjelasan sistem penomoran versi dan siklus rilis Berumrah"
+---
+
+# 🔢 Sistem Versioning Berumrah
+
+Berumrah menggunakan **Semantic Versioning (SemVer)** untuk menandai setiap rilis sistem.  
+Formatnya adalah:
+
+vMAJOR.MINOR.PATCH
+
+Contoh: `v1.2.0`
+
+---
+
+## 🧭 Penjelasan Versi
+
+- **MAJOR** — Rilis besar dengan perubahan struktural (mis. arsitektur baru, modul utama baru).  
+  > Contoh: v1.0 → v2.0 menandakan perubahan besar yang mungkin memerlukan penyesuaian pengguna.
+
+- **MINOR** — Penambahan fitur baru tanpa mengganggu kompatibilitas versi sebelumnya.  
+  > Contoh: v1.1 → v1.2 menandakan fitur tambahan atau peningkatan fungsionalitas.
+
+- **PATCH** — Perbaikan bug atau peningkatan kecil tanpa perubahan fitur.  
+  > Contoh: v1.2.1 → v1.2.2 adalah perbaikan minor dan peningkatan performa.
+
+---
+
+## 🔄 Siklus Rilis
+
+- **Rilis Minor**: setiap 2–4 minggu (penambahan fitur atau peningkatan sistem).  
+- **Rilis Patch**: setiap kali ada perbaikan bug atau hotfix.  
+- **Rilis Major**: setiap 6–12 bulan dengan perubahan arsitektur besar.
+
+---
+
+## 📬 Notifikasi Pembaruan
+
+Semua pengguna akan mendapatkan notifikasi pembaruan melalui:
+- Dashboard admin Berumrah  
+- Email terdaftar travel  
+- Halaman changelog resmi di dokumentasi  
+
+---
+
+## ⚙️ Kompatibilitas
+Setiap pembaruan Berumrah dijamin **backward compatible** selama masih dalam versi major yang sama (contoh: v1.x.x).
+
+Jika Anda memiliki kustomisasi whitelabel, tim kami akan memastikan semua integrasi tetap berjalan normal setelah pembaruan.
+
+---
+
+> ✉️ **Hubungi kami**  
+> Untuk laporan bug, permintaan fitur, atau pertanyaan tentang upgrade, silakan kirim email ke [support@berumrah.id](mailto:support@berumrah.id).
