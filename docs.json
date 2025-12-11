@@ -72,7 +72,11 @@
               "admin-guide/itinerary-and-logistics-management",
               "admin-guide/system-settings-and-configurations"
             ]
-          }
+          },
+          {"group": "Mengelola Paket",
+          "pages": [
+            "admin-guide/tambah-paket"
+          ]}
         ]
       },
       {
