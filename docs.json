@@ -66,19 +66,135 @@
             "group": "Admin / Operator",
             "pages": [
               "admin-guide/overview",
-              "admin-guide/program-package-management",
+              "admin-guide/tambah-paket",
               "admin-guide/booking-and-payment-management",
               "admin-guide/quota-and-seat-allocation",
               "admin-guide/itinerary-and-logistics-management",
               "admin-guide/system-settings-and-configurations"
             ]
           },
+          {"group": "Mengelola Kategori Paket",
+          "pages": [
+            "admin-guide/tambah-kategori-paket",
+            "admin-guide/edit-kategori-paket",
+            "admin-guide/hapus-kategori-paket"
+          ]},
           {"group": "Mengelola Paket",
           "pages": [
-            "admin-guide/tambah-paket"
+            "admin-guide/tambah-paket",
+            "admin-guide/edit-paket",
+            "admin-guide/hapus-paket"
+          ]},
+          {"group": "Mengelola Batch",
+          "pages": [
+            "admin-guide/tambah-batch",
+            "admin-guide/edit-batch",
+            "admin-guide/hapus-batch"
+          ]},
+          {"group": "Mengelola Data Jamaah",
+          "pages": [
+            "admin-guide/tambah-batch",
+            "admin-guide/edit-batch",
+            "admin-guide/hapus-batch"
+          ]},
+          {"group": "Mengelola Transaksi",
+          "pages": [
+            "admin-guide/tambah-batch",
+            "admin-guide/edit-batch",
+            "admin-guide/hapus-batch"
+          ]},
+          {"group": "Mengelola Payment Gateway",
+          "pages": [
+            "admin-guide/tambah-batch",
+            "admin-guide/edit-batch",
+            "admin-guide/hapus-batch"
+          ]},
+          {"group": "Mengelola Pesyiar",
+          "pages": [
+            "admin-guide/tambah-batch",
+            "admin-guide/edit-batch",
+            "admin-guide/hapus-batch"
+          ]},
+          {"group": "Mengelola Pengguna",
+          "pages": [
+            "admin-guide/tambah-batch",
+            "admin-guide/edit-batch",
+            "admin-guide/hapus-batch"
+          ]},
+          {"group": "Mengelola Testimonial",
+          "pages": [
+            "admin-guide/tambah-batch",
+            "admin-guide/edit-batch",
+            "admin-guide/hapus-batch"
+          ]},
+          {"group": "Mengelola Artikel",
+          "pages": [
+            "admin-guide/tambah-batch",
+            "admin-guide/edit-batch",
+            "admin-guide/hapus-batch"
+          ]},
+          {"group": "Mengelola FAQ",
+          "pages": [
+            "admin-guide/tambah-batch",
+            "admin-guide/edit-batch",
+            "admin-guide/hapus-batch"
+          ]},
+          {"group": "Mengelola Kantor",
+          "pages": [
+            "admin-guide/tambah-batch",
+            "admin-guide/edit-batch",
+            "admin-guide/hapus-batch"
+          ]},
+          {"group": "Mengelola Slider",
+          "pages": [
+            "admin-guide/tambah-batch",
+            "admin-guide/edit-batch",
+            "admin-guide/hapus-batch"
+          ]},
+          {"group": "Mengelola Brand Logos",
+          "pages": [
+            "admin-guide/tambah-batch",
+            "admin-guide/edit-batch",
+            "admin-guide/hapus-batch"
+          ]},
+          {"group": "Mengelola Dokumentasi",
+          "pages": [
+            "admin-guide/tambah-batch",
+            "admin-guide/edit-batch",
+            "admin-guide/hapus-batch"
+          ]},
+          {"group": "Mengelola Menus",
+          "pages": [
+            "admin-guide/tambah-batch",
+            "admin-guide/edit-batch",
+            "admin-guide/hapus-batch"
+          ]},
+          {"group": "Mengelola App Settings",
+          "pages": [
+            "admin-guide/tambah-batch",
+            "admin-guide/edit-batch",
+            "admin-guide/hapus-batch"
           ]}
+
         ]
       },
+      {
+        "tab": "Agent / Pesyiar Guide",
+        "groups": [
+          {
+            "group": "Pesyiar",
+            "pages": [
+              "pesyiar-guide/overview",
+              "pesyiar-guide/tambah-paket",
+              "pesyiar-guide/booking-and-payment-management",
+              "pesyiar-guide/quota-and-seat-allocation",
+              "pesyiar-guide/itinerary-and-logistics-management",
+              "pesyiar-guide/system-settings-and-configurations"
+            ]
+          }
+        ]
+      },
+      
       {
         "tab": "Bantuan & FAQ",
         "groups": [
