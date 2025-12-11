@@ -65,7 +65,7 @@
           {
             "group": "Admin / Operator",
             "pages": [
-              "admin-guide/user-and-role-management",
+              "admin-guide/overview",
               "admin-guide/program-package-management",
               "admin-guide/booking-and-payment-management",
               "admin-guide/quota-and-seat-allocation",
