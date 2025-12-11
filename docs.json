@@ -31,30 +31,19 @@
         ]
       },
       {
-        "tab": "User Guide",
+        "tab": "Jamaah Guide",
         "groups": [
           {
             "group": "Jamaah",
             "pages": [
               "user-guide/jamaah/overview",
-              "user-guide/jamaah/fill-data-and-docs",
-              "user-guide/jamaah/view-packages-booking",
-              "user-guide/jamaah/payment-and-confirmation",
-              "user-guide/jamaah/booking-status-and-quota",
-              "user-guide/jamaah/itinerary-and-schedule",
+              "user-guide/what-is-jamaah",
+              "user-guide/jamaah/Login",
+              "user-guide/jamaah/Reset Password",
+              "user-guide/jamaah/Memesan Program",
+              "user-guide/jamaah/Melakukan Pembayaran",
+              "user-guide/jamaah/Tabungan Umroh",
               "user-guide/jamaah/notifications-and-reminders"
-            ]
-          },
-          {
-            "group": "Agent / Pesyiar",
-            "pages": [
-              "user-guide/agent-pesyiar/what-is-agent-pesyiar",
-              "user-guide/agent-pesyiar/agent-registration-login",
-              "user-guide/agent-pesyiar/manage-jamaah-via-agent",
-              "user-guide/agent-pesyiar/booking-and-quota-management",
-              "user-guide/agent-pesyiar/payment-tracking-for-agent",
-              "user-guide/agent-pesyiar/agent-dashboard-and-reports",
-              "user-guide/agent-pesyiar/communication-and-notifications-agent"
             ]
           }
         ]
@@ -185,16 +174,16 @@
             "group": "Pesyiar",
             "pages": [
               "pesyiar-guide/overview",
-              "pesyiar-guide/tambah-paket",
-              "pesyiar-guide/booking-and-payment-management",
-              "pesyiar-guide/quota-and-seat-allocation",
-              "pesyiar-guide/itinerary-and-logistics-management",
-              "pesyiar-guide/system-settings-and-configurations"
+              "pesyiar-guide/Login",
+              "pesyiar-guide/Reset Password",
+              "pesyiar-guide/Register",
+              "pesyiar-guide/Kirim Link Program",
+              "pesyiar-guide/Pendaftaran Bank",
+              "pesyiar-guide/Penarikan Komisi"  
             ]
           }
         ]
       },
-      
       {
         "tab": "Bantuan & FAQ",
         "groups": [
