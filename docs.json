@@ -48,7 +48,7 @@
           {
             "group": "Admin / Operator",
             "pages": [
-              "admin-guide/overview",
+              "admin-guide/what-is-admin",
               "admin-guide/tambah-paket",
               "admin-guide/booking-and-payment-management",
               "admin-guide/quota-and-seat-allocation",
