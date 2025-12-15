@@ -21,11 +21,7 @@
           {
             "group": "Pendahuluan",
             "pages": [
-              "overview",
-              "overview/test",
-              "overview/features-overview",
-              "overview/glossary",
-              "overview/requirements"
+              "overview"
             ]
           }
         ]
@@ -36,8 +32,7 @@
           {
             "group": "Jamaah",
             "pages": [
-              "user-guide/jamaah/overview",
-              "user-guide/what-is-jamaah",
+              "user-guide/jamaah/what-is-jamaah",
               "user-guide/jamaah/Login",
               "user-guide/jamaah/Reset Password",
               "user-guide/jamaah/Memesan Program",
@@ -172,7 +167,7 @@
           {
             "group": "Pesyiar",
             "pages": [
-              "pesyiar-guide/overview",
+              "pesyiar-guide/what-is-pesyiar",
               "pesyiar-guide/Login",
               "pesyiar-guide/Reset Password",
               "pesyiar-guide/Register",
