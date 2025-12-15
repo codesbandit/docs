@@ -48,12 +48,7 @@
           {
             "group": "Admin / Operator",
             "pages": [
-              "admin-guide/what-is-admin",
-              "admin-guide/tambah-paket",
-              "admin-guide/booking-and-payment-management",
-              "admin-guide/quota-and-seat-allocation",
-              "admin-guide/itinerary-and-logistics-management",
-              "admin-guide/system-settings-and-configurations"
+              "admin-guide/what-is-admin"
             ]
           },
           {"group": "Mengelola Kategori Paket",
